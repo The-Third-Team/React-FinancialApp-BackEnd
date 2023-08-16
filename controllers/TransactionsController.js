@@ -1,4 +1,6 @@
 const { Transaction } = require("../models");
+const moment = require("moment");
+const { Op } = require("sequelize");
 
 const CreateTransaction = async (req, res) => {
   try {
@@ -18,7 +20,45 @@ const GetAllTransactions = async (req, res) => {
   }
 };
 
+const GetUserTransactions = async (req, res) => {
+  try {
+    let userId = parseInt(req.params.user_id);
+    const allUserTransactions = await Transaction.findAll({
+      where: { userId: userId }
+    });
+    res.send(allUserTransactions);
+  } catch (error) {
+    throw error;
+  }
+};
+
+const GetUserCurrentMonthTransactions = async (req, res) => {
+  try {
+    let userId = parseInt(req.params.user_id);
+    const currentDate = moment();
+    const startOfMonth = currentDate.clone().startOf("month");
+    const endOfMonth = currentDate.clone().endOf("month");
+    console.log(startOfMonth, endOfMonth);
+    const allUserTransactions = await Transaction.findAll({
+      where: [
+        {
+          userId: userId,
+          date: {
+            // $between: [startOfMonth, endOfMonth]
+            [Op.between]: [startOfMonth, endOfMonth]
+          }
+        }
+      ]
+    });
+    res.send(allUserTransactions);
+  } catch (error) {
+    throw error;
+  }
+};
+
 module.exports = {
   CreateTransaction,
-  GetAllTransactions
+  GetAllTransactions,
+  GetUserTransactions,
+  GetUserCurrentMonthTransactions
 };
