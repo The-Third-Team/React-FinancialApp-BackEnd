@@ -5,3 +5,5 @@ Router.post("/", controller.CreateCategory);
 Router.get("/", controller.GetAllCategories);
 
 module.exports = Router;
+
+// /api/category
