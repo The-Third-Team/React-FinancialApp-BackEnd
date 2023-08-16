@@ -44,7 +44,6 @@ const GetUserCurrentMonthTransactions = async (req, res) => {
         {
           userId: userId,
           date: {
-            // $between: [startOfMonth, endOfMonth]
             [Op.between]: [startOfMonth, endOfMonth]
           }
         }
