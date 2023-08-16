@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       Transaction.belongsTo(models.User, { foreignKey: "userId" });
       Transaction.belongsTo(models.Category, { foreignKey: "categoryId" });
+      Transaction.belongsTo(models.Account, { foreignKey: "accountId" });
     }
   }
   Transaction.init(
@@ -34,7 +35,15 @@ module.exports = (sequelize, DataTypes) => {
           key: "id"
         }
       },
-      creditDebit: DataTypes.STRING
+      creditDebit: DataTypes.STRING,
+      accountId: {
+        type: DataTypes.INTEGER,
+        onDelete: "CASCADE",
+        references: {
+          model: "transactions",
+          key: "id"
+        }
+      }
     },
     {
       sequelize,
