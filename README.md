@@ -24,7 +24,7 @@ npm run dev
 
 
 
-If you need to clean up your db existing data, you can run the following commands
+If you need to clean up your db existing data especially after multitime running seed process, you can run the following commands
 sequelize db:seed:undo:all
 
 Additionally, you can add the following command to clean up from PSQL and reset the ID to 1
