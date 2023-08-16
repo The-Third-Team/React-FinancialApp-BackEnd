@@ -39,13 +39,16 @@ const Register = async (req, res) => {
       username
     });
     // added, copied from Login
+    let userData = user.dataValues
     let payload = {
-      id: user.id,
-      email: user.email
+      id: userData.id,
+      firstName: userData.firstName,
+      lastName: userData.lastName,
+      email: userData.email
     };
     let token = middleware.createToken(payload);
     return res.send({ user: payload, token });
-    
+
     // res.send(user)
   } catch (error) {
     throw error;
