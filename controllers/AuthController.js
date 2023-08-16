@@ -38,7 +38,15 @@ const Register = async (req, res) => {
       lastName,
       username
     });
-    res.send(user);
+    // added, copied from Login
+    let payload = {
+      id: user.id,
+      email: user.email
+    };
+    let token = middleware.createToken(payload);
+    return res.send({ user: payload, token });
+    
+    // res.send(user)
   } catch (error) {
     throw error;
   }
