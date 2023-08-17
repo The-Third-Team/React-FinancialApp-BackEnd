@@ -66,10 +66,24 @@ const GetUserCurrentMonthTransactions = async (req, res) => {
   }
 };
 
+const GetUserCategoryTransactions = async (req, res) => {
+  try {
+    let userId = parseInt(req.params.user_id);
+    let categoryId = parseInt(req.params.category_id);
+    const allUserTransactions = await Transaction.findAll({
+      where: { userId, categoryId }
+    });
+    res.send(allUserTransactions);
+  } catch (error) {
+    throw error;
+  }
+};
+
 module.exports = {
   CreateTransaction,
   GetAllTransactions,
   GetAccountTransactions,
   GetUserTransactions,
+  GetUserCategoryTransactions,
   GetUserCurrentMonthTransactions
 };

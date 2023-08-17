@@ -64,5 +64,10 @@ module.exports = [
     description:
       "Use for Incoming/Outgoing that not related to merchant expense, such as deposit money, withdrawal, ACH transfer from work",
     group: ""
+  },
+  {
+    name: "Income",
+    description: "Use for Income transaction that happened periodicly",
+    group: ""
   }
 ];

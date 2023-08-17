@@ -6,6 +6,10 @@ Router.get("/", controller.GetAllTransactions);
 Router.get("/account/:account_id", controller.GetAccountTransactions);
 Router.get("/user/:user_id", controller.GetUserTransactions);
 Router.get(
+  "/user/:user_id/category/:category_id",
+  controller.GetUserCategoryTransactions
+);
+Router.get(
   "/current/user/:user_id",
   controller.GetUserCurrentMonthTransactions
 );
