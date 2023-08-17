@@ -11,6 +11,21 @@ const CreateTransaction = async (req, res) => {
   }
 };
 
+const CreateBulkTransaction = async (req, res) => {
+  try {
+    const allTransactions = [];
+    const transactions = req.body.transactions;
+
+    for (const transaction of transactions) {
+      const newTransaction = await Transaction.create({ ...transaction });
+      allTransactions.push(newTransaction);
+    }
+    res.send(allTransactions);
+  } catch (error) {
+    error;
+  }
+};
+
 const GetAllTransactions = async (req, res) => {
   try {
     const allTransactions = await Transaction.findAll();
@@ -81,6 +96,7 @@ const GetUserCategoryTransactions = async (req, res) => {
 
 module.exports = {
   CreateTransaction,
+  CreateBulkTransaction,
   GetAllTransactions,
   GetAccountTransactions,
   GetUserTransactions,

@@ -5,11 +5,8 @@ const { Op } = require("sequelize");
 const CreateBudget = async (req, res) => {
   try {
     let budget_list = [];
-    console.log("req.body", req.body);
-    console.log("req.body.budgets", req.body.budgets);
     const budgets = req.body.budgets;
     for (let budget of budgets) {
-      console.log("budget", budget);
       const newBudget = await Budget.create(budget);
       budget_list.push(newBudget);
     }
