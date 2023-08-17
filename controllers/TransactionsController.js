@@ -38,7 +38,6 @@ const GetUserCurrentMonthTransactions = async (req, res) => {
     const currentDate = moment();
     const startOfMonth = currentDate.clone().startOf("month");
     const endOfMonth = currentDate.clone().endOf("month");
-    console.log(startOfMonth, endOfMonth);
     const allUserTransactions = await Transaction.findAll({
       where: [
         {
