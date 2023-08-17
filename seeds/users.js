@@ -1,10 +1,10 @@
 module.exports = [
   {
-    firstName: "Mary",
-    lastName: "Hill",
-    email: "mary.hill@email.com",
+    firstName: "Avery",
+    lastName: "Liv",
+    email: "avery.liv@email.com",
     password: "password",
-    username: "maryhill",
+    username: "averyliv",
     passwordDigest: "password"
   },
   {

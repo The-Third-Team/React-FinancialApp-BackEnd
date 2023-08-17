@@ -4,84 +4,84 @@ module.exports = [
     budget: 1000,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Grocery",
     budget: 800,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Coffee Shops",
     budget: 5500,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Clothing",
     budget: 0,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Jewelry",
     budget: 6000,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Rent/Mortgage",
     budget: 7000,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Car",
     budget: 0,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Insurance",
     budget: 2000,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Utilities",
     budget: 3500,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Movies",
     budget: 0,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Streaming",
     budget: 1200,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Activities",
     budget: 1800,
     categoryId: "",
     userId: "",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Restaurant",

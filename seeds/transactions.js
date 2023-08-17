@@ -9,7 +9,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Income",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "ACH Transfer from 42313777",
@@ -21,7 +21,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Income",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "ACH Transfer from 42313777",
@@ -33,7 +33,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Income",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "ACH Transfer from 421545888",
@@ -81,7 +81,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Fund",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Fund Deposit",
@@ -93,7 +93,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Fund",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Payment",
@@ -105,7 +105,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Fund",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Payment",
@@ -117,7 +117,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Fund",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Fund Deposit",
@@ -177,7 +177,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341144",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Starbucks",
@@ -189,7 +189,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Gas Station",
@@ -201,7 +201,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Car",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Rent Payment",
@@ -213,7 +213,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Rent/Mortgage",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Movie Ticket",
@@ -225,7 +225,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Movies",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Grocery Shopping",
@@ -237,7 +237,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Online Shopping",
@@ -249,7 +249,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Clothing",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Amazon Purchase",
@@ -261,7 +261,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Utility Bill",
@@ -273,7 +273,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Utilities",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Streaming Service",
@@ -285,7 +285,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Streaming",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Dinner at Restaurant",
@@ -297,7 +297,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Restaurant",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Clothing Store",
@@ -309,7 +309,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Clothing",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Gas Refill",
@@ -321,7 +321,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Car",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Online Shopping",
@@ -333,7 +333,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Electric Bill",
@@ -345,7 +345,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Utilities",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Grocery Shopping",
@@ -357,7 +357,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Shopping Spree",
@@ -369,7 +369,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Clothing",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Coffee Break",
@@ -381,7 +381,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341234",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Lunch with Friends",
@@ -393,7 +393,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Restaurant",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Groceries",
@@ -405,7 +405,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Coffee Break",
@@ -417,7 +417,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Shopping Spree",
@@ -429,7 +429,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Clothing",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Coffee Break",
@@ -441,7 +441,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Dinner with Friends",
@@ -453,7 +453,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Restaurant",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Groceries",
@@ -465,7 +465,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Coffee Break",
@@ -477,7 +477,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Shopping Spree",
@@ -489,7 +489,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Clothing",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Coffee Break",
@@ -501,7 +501,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "12341251",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Dinner at Restaurant",
@@ -513,7 +513,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Restaurant",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Grocery Shopping",
@@ -525,7 +525,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Coffee Break",
@@ -537,7 +537,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Rent Payment",
@@ -549,7 +549,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Rent/Mortgage",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Car Insurance",
@@ -561,7 +561,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Insurance",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Utility Bill",
@@ -573,7 +573,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Utilities",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Movie Ticket",
@@ -585,7 +585,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Movies",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Clothing Shopping",
@@ -597,7 +597,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Clothing",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Streaming Subscription",
@@ -609,7 +609,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Streaming",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "Outdoor Activities",
@@ -621,7 +621,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Activities",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "CASH APP",
@@ -633,7 +633,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Restaurant",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "PIXIESETCOM",
@@ -645,7 +645,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "BP* PETROLEUM",
@@ -657,7 +657,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Car",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "AMZN MKTP",
@@ -669,7 +669,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Clothing",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "CVS",
@@ -681,7 +681,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Grocery",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "UBER EATS",
@@ -693,7 +693,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Restaurant",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "COMPASS COFFEE",
@@ -705,7 +705,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Coffee Shops",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "COMCAST 800-COMCAST",
@@ -717,7 +717,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Utilities",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "PEPCO",
@@ -729,7 +729,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Utilities",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "METRO",
@@ -741,7 +741,7 @@ module.exports = [
     accountId: 1,
     accountNumber: "123415771",
     categoryName: "Activities",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     description: "CASH APP",

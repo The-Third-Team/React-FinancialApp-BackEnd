@@ -4,21 +4,21 @@ module.exports = [
     userId: 1,
     accountNumber: "12341234",
     type: "Checking",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Chase",
     userId: 1,
     accountNumber: "12341251",
     type: "Saving",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Bank of America",
     userId: 1,
     accountNumber: "123415771",
     type: "Credit Card",
-    userEmail: "mary.hill@email.com"
+    userEmail: "avery.liv@email.com"
   },
   {
     name: "Chase",
