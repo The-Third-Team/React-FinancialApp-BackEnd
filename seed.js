@@ -3,6 +3,7 @@ const { User, Category, Account, Budget, Transaction } = require("./models"); //
 const userData = require("./seeds/users");
 const categoryData = require("./seeds/categories");
 const budgetData = require("./seeds/budgets");
+const accountData = require("./seeds/accounts");
 const jwt = require("jsonwebtoken");
 
 const SALT_ROUNDS = parseInt(process.env.SALT_ROUNDS);
@@ -34,6 +35,13 @@ const seedDatabase = async () => {
   }
 
   await Budget.bulkCreate(budgetData);
+
+  for (const account of accountData) {
+    const user = await User.findOne({ where: { email: account.userEmail } });
+    account.userId = user.id;
+  }
+
+  await Account.bulkCreate(accountData);
 };
 
 seedDatabase();
