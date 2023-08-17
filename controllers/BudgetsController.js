@@ -1,15 +1,15 @@
-const { Budget, Transaction } = require("../models");
+const { Budget, Transaction, Category } = require("../models");
 const moment = require("moment");
 const { Op } = require("sequelize");
 
 const CreateBudget = async (req, res) => {
   try {
     let budget_list = [];
-    console.log('req.body', req.body)
-    console.log('req.body.budgets', req.body.budgets)
-    const budgets = req.body.budgets
-    for (let budget of budgets){
-      console.log('budget', budget)
+    console.log("req.body", req.body);
+    console.log("req.body.budgets", req.body.budgets);
+    const budgets = req.body.budgets;
+    for (let budget of budgets) {
+      console.log("budget", budget);
       const newBudget = await Budget.create(budget);
       budget_list.push(newBudget);
     }
@@ -39,6 +39,7 @@ const GetUserBudgets = async (req, res) => {
     const endOfMonth = currentDate.clone().endOf("month");
 
     for (budget of allUserBudgets) {
+      const category = await Category.findByPk(budget.categoryId);
       const transactions = await Transaction.findAll({
         where: {
           categoryId: budget.categoryId,
@@ -53,6 +54,7 @@ const GetUserBudgets = async (req, res) => {
         0
       );
       budget.dataValues.remaining = budget.budget + totalAmount;
+      budget.dataValues.group = category.group;
     }
 
     res.send(allUserBudgets);

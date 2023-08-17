@@ -15,18 +15,17 @@ in the env file, populate with the following, feel free to change the value
 APP_SECRET=examplesupersecretkey
 SALT_ROUNDS=14
 
-sequelize db:create
+sequelize db:create (Only run this one time to create the db)
+
 sequelize db:migrate
 
-sequelize db:seed:all
+
+
+node seed.js
 
 npm run dev
 
 
 
-If you need to clean up your db existing data especially after multitime running seed process, you can run the following commands
-sequelize db:seed:undo:all
-
-Additionally, you can add the following command to clean up from PSQL and reset the ID to 1
-DELETE FROM categories;
+Additionally, you can add the following command to clean up from PSQL and reset the ID to 1 (Change the categories to other table name as needed)
 ALTER SEQUENCE categories_id_seq RESTART;
