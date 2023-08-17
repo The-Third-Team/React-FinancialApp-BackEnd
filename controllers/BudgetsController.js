@@ -73,9 +73,29 @@ const UpdateBudget = async (req, res) => {
   }
 };
 
+const UpdateBulkBudgets = async (req, res) => {
+  try {
+    console.log("body = ", req.body);
+    const oldBudgets = req.body.budgets;
+    const budgets = [];
+    for (const budget of oldBudgets) {
+      console.log("budget = ", budget);
+      const newBudget = await Budget.update(budget.data, {
+        where: { id: budget.id },
+        returning: true
+      });
+      budgets.push(newBudget[1][0]);
+    }
+    res.send({ budgets });
+  } catch (error) {
+    throw error;
+  }
+};
+
 module.exports = {
   CreateBudget,
   GetAllBudgets,
   GetUserBudgets,
-  UpdateBudget
+  UpdateBudget,
+  UpdateBulkBudgets
 };
