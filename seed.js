@@ -4,6 +4,7 @@ const userData = require("./seeds/users");
 const categoryData = require("./seeds/categories");
 const budgetData = require("./seeds/budgets");
 const accountData = require("./seeds/accounts");
+const transactionData = require("./seeds/transactions");
 const jwt = require("jsonwebtoken");
 
 const SALT_ROUNDS = parseInt(process.env.SALT_ROUNDS);
@@ -42,6 +43,28 @@ const seedDatabase = async () => {
   }
 
   await Account.bulkCreate(accountData);
+
+  for (const transaction of transactionData) {
+    const user = await User.findOne({
+      where: { email: transaction.userEmail }
+    });
+    transaction.userId = user.id;
+    // console.log("Found userId = ", user.id);
+
+    const category = await Category.findOne({
+      where: { name: transaction.categoryName }
+    });
+    transaction.categoryId = category.id;
+    // console.log("Found categoryId = ", category.id);
+
+    const account = await Account.findOne({
+      where: { accountNumber: transaction.accountNumber }
+    });
+    transaction.accountId = account.id;
+    // console.log("Found accountId = ", account.id);
+  }
+
+  await Transaction.bulkCreate(transactionData);
 };
 
 seedDatabase();

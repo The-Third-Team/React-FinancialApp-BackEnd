@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   Account.init(
     {
       name: DataTypes.STRING,
-      accountNumber: DataTypes.INTEGER,
+      accountNumber: DataTypes.STRING,
       userId: {
         type: DataTypes.INTEGER,
         onDelete: "CASCADE",

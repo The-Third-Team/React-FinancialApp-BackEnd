@@ -58,5 +58,11 @@ module.exports = [
     name: "Activities",
     description: "Activities related transaction",
     group: "Entertainment"
+  },
+  {
+    name: "Fund",
+    description:
+      "Use for Incoming/Outgoing that not related to merchant expense, such as deposit money, withdrawal, ACH transfer from work",
+    group: ""
   }
 ];
