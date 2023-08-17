@@ -7,3 +7,5 @@ Router.get("/user/:user_id", controller.GetUserBudgets);
 Router.put("/:budget_id", controller.UpdateBudget);
 
 module.exports = Router;
+
+// api/budget

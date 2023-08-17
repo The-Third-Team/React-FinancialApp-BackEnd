@@ -2,8 +2,14 @@ const { Budget } = require("../models");
 
 const CreateBudget = async (req, res) => {
   try {
-    const newBudget = await Budget.create(req.body);
-    res.send(newBudget);
+    let budget_list = [];
+    for (let budget of req.body){
+      const newBudget = await Budget.create(budget);
+      budget_list.push(newBudget);
+    }
+    
+    //const newBudget = await Budget.create(req.body);
+    res.send(budget_list);
   } catch (error) {
     throw error;
   }
