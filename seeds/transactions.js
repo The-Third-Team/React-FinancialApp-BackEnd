@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     description: "Payment",
-    amount: -300,
+    amount: 300,
     date: "2023-06-31",
     categoryId: 1,
     userId: 1,
@@ -37,7 +37,7 @@ module.exports = [
   },
   {
     description: "Payment",
-    amount: -1000,
+    amount: 1000,
     date: "2023-07-31",
     categoryId: 1,
     userId: 1,
@@ -73,7 +73,7 @@ module.exports = [
   },
   {
     description: "Payment",
-    amount: -1000,
+    amount: 1000,
     date: "2023-06-31",
     categoryId: 1,
     userId: 1,
@@ -85,7 +85,7 @@ module.exports = [
   },
   {
     description: "Payment",
-    amount: -2000,
+    amount: 2000,
     date: "2023-07-31",
     categoryId: 1,
     userId: 1,
@@ -433,7 +433,7 @@ module.exports = [
   },
   {
     description: "Dinner at Restaurant",
-    amount: 45.0,
+    amount: -45.0,
     date: "2023-06-05",
     categoryId: 1,
     userId: 1,
@@ -445,7 +445,7 @@ module.exports = [
   },
   {
     description: "Grocery Shopping",
-    amount: 78.5,
+    amount: -78.5,
     date: "2023-06-10",
     categoryId: 2,
     userId: 1,
@@ -457,7 +457,7 @@ module.exports = [
   },
   {
     description: "Coffee Break",
-    amount: 4.25,
+    amount: -4.25,
     date: "2023-06-15",
     categoryId: 3,
     userId: 1,
@@ -469,7 +469,7 @@ module.exports = [
   },
   {
     description: "Rent Payment",
-    amount: 1300.0,
+    amount: -1300.0,
     date: "2023-06-20",
     categoryId: 6,
     userId: 1,
@@ -481,7 +481,7 @@ module.exports = [
   },
   {
     description: "Car Insurance",
-    amount: 150.0,
+    amount: -150.0,
     date: "2023-06-25",
     categoryId: 8,
     userId: 1,
@@ -493,7 +493,7 @@ module.exports = [
   },
   {
     description: "Utility Bill",
-    amount: 95.0,
+    amount: -95.0,
     date: "2023-07-01",
     categoryId: 9,
     userId: 1,
@@ -505,7 +505,7 @@ module.exports = [
   },
   {
     description: "Movie Ticket",
-    amount: 12.5,
+    amount: -12.5,
     date: "2023-07-05",
     categoryId: 10,
     userId: 1,
@@ -517,7 +517,7 @@ module.exports = [
   },
   {
     description: "Clothing Shopping",
-    amount: 65.75,
+    amount: -65.75,
     date: "2023-07-10",
     categoryId: 4,
     userId: 1,
@@ -529,7 +529,7 @@ module.exports = [
   },
   {
     description: "Streaming Subscription",
-    amount: 8.99,
+    amount: -8.99,
     date: "2023-07-15",
     categoryId: 11,
     userId: 1,
@@ -541,7 +541,7 @@ module.exports = [
   },
   {
     description: "Outdoor Activities",
-    amount: 20.0,
+    amount: -20.0,
     date: "2023-07-20",
     categoryId: 12,
     userId: 1,
@@ -553,7 +553,7 @@ module.exports = [
   },
   {
     description: "CASH APP",
-    amount: 50.0,
+    amount: -50.0,
     date: "2023-06-05",
     categoryId: 1,
     userId: 1,
@@ -565,7 +565,7 @@ module.exports = [
   },
   {
     description: "PIXIESETCOM",
-    amount: 15.0,
+    amount: -15.0,
     date: "2023-06-10",
     categoryId: 2,
     userId: 1,
@@ -577,7 +577,7 @@ module.exports = [
   },
   {
     description: "BP* PETROLEUM",
-    amount: 30.0,
+    amount: -30.0,
     date: "2023-06-15",
     categoryId: 7,
     userId: 1,
@@ -589,7 +589,7 @@ module.exports = [
   },
   {
     description: "AMZN MKTP",
-    amount: 120.0,
+    amount: -120.0,
     date: "2023-06-20",
     categoryId: 4,
     userId: 1,
@@ -601,7 +601,7 @@ module.exports = [
   },
   {
     description: "CVS",
-    amount: 25.5,
+    amount: -25.5,
     date: "2023-06-25",
     categoryId: 2,
     userId: 1,
@@ -613,7 +613,7 @@ module.exports = [
   },
   {
     description: "UBER EATS",
-    amount: 40.0,
+    amount: -40.0,
     date: "2023-07-01",
     categoryId: 1,
     userId: 1,
@@ -625,7 +625,7 @@ module.exports = [
   },
   {
     description: "COMPASS COFFEE",
-    amount: 6.75,
+    amount: -6.75,
     date: "2023-07-05",
     categoryId: 3,
     userId: 1,
@@ -637,7 +637,7 @@ module.exports = [
   },
   {
     description: "COMCAST 800-COMCAST",
-    amount: 60.0,
+    amount: -60.0,
     date: "2023-07-10",
     categoryId: 9,
     userId: 1,
@@ -649,7 +649,7 @@ module.exports = [
   },
   {
     description: "PEPCO",
-    amount: 85.0,
+    amount: -85.0,
     date: "2023-07-15",
     categoryId: 9,
     userId: 1,
@@ -661,7 +661,7 @@ module.exports = [
   },
   {
     description: "METRO",
-    amount: 4.75,
+    amount: -4.75,
     date: "2023-07-20",
     categoryId: 12,
     userId: 1,
@@ -1153,7 +1153,7 @@ module.exports = [
   },
   {
     description: "Starbucks Coffee",
-    amount: 12.5,
+    amount: -12.5,
     date: "2023-08-03",
     categoryId: 1,
     userId: 1,
@@ -1165,7 +1165,7 @@ module.exports = [
   },
   {
     description: "Grocery Store XYZ",
-    amount: 127.45,
+    amount: -127.45,
     date: "2023-08-04",
     categoryId: 1,
     userId: 1,
@@ -1177,7 +1177,7 @@ module.exports = [
   },
   {
     description: "Netflix Subscription",
-    amount: 15.99,
+    amount: -15.99,
     date: "2023-08-02",
     categoryId: 1,
     userId: 1,
@@ -1189,7 +1189,7 @@ module.exports = [
   },
   {
     description: "Restaurant Bill",
-    amount: 65.3,
+    amount: -65.3,
     date: "2023-08-08",
     categoryId: 1,
     userId: 1,
@@ -1201,7 +1201,7 @@ module.exports = [
   },
   {
     description: "Online Clothing Store",
-    amount: 97.1,
+    amount: -97.1,
     date: "2023-08-10",
     categoryId: 1,
     userId: 1,
@@ -1213,7 +1213,7 @@ module.exports = [
   },
   {
     description: "Apple iTunes Store",
-    amount: 14.2,
+    amount: -14.2,
     date: "2023-08-01",
     categoryId: 1,
     userId: 1,
@@ -1225,7 +1225,7 @@ module.exports = [
   },
   {
     description: "Gas Station ABC",
-    amount: 32.12,
+    amount: -32.12,
     date: "2023-08-13",
     categoryId: 1,
     userId: 1,
@@ -1237,7 +1237,7 @@ module.exports = [
   },
   {
     description: "Hotel Reservation",
-    amount: 150.75,
+    amount: -150.75,
     date: "2023-08-07",
     categoryId: 1,
     userId: 1,
@@ -1249,7 +1249,7 @@ module.exports = [
   },
   {
     description: "Jewelry Store Transaction",
-    amount: 212.65,
+    amount: -212.65,
     date: "2023-08-11",
     categoryId: 1,
     userId: 1,
@@ -1261,7 +1261,7 @@ module.exports = [
   },
   {
     description: "Utility Bill Payment",
-    amount: 78.5,
+    amount: -78.5,
     date: "2023-08-16",
     categoryId: 1,
     userId: 1,
@@ -1273,7 +1273,7 @@ module.exports = [
   },
   {
     description: "Fast Food Restaurant",
-    amount: 23.89,
+    amount: -23.89,
     date: "2023-08-05",
     categoryId: 1,
     userId: 1,
@@ -1285,7 +1285,7 @@ module.exports = [
   },
   {
     description: "Online Gaming Purchase",
-    amount: 49.99,
+    amount: -49.99,
     date: "2023-08-09",
     categoryId: 1,
     userId: 1,
@@ -1297,7 +1297,7 @@ module.exports = [
   },
   {
     description: "Furniture Store Purchase",
-    amount: 320.45,
+    amount: -320.45,
     date: "2023-08-06",
     categoryId: 1,
     userId: 1,
@@ -1309,7 +1309,7 @@ module.exports = [
   },
   {
     description: "Airline Ticket Booking",
-    amount: 450.3,
+    amount: -450.3,
     date: "2023-08-12",
     categoryId: 1,
     userId: 1,
@@ -1321,7 +1321,7 @@ module.exports = [
   },
   {
     description: "Amazon Purchase",
-    amount: 78.25,
+    amount: -78.25,
     date: "2023-08-14",
     categoryId: 1,
     userId: 1,
@@ -1333,7 +1333,7 @@ module.exports = [
   },
   {
     description: "Gym Membership",
-    amount: 45.0,
+    amount: -45.0,
     date: "2023-08-02",
     categoryId: 1,
     userId: 1,
@@ -1345,7 +1345,7 @@ module.exports = [
   },
   {
     description: "Electronics Store Purchase",
-    amount: 215.75,
+    amount: -215.75,
     date: "2023-08-07",
     categoryId: 1,
     userId: 1,
@@ -1357,7 +1357,7 @@ module.exports = [
   },
   {
     description: "Pharmacy Prescription",
-    amount: 25.45,
+    amount: -25.45,
     date: "2023-08-10",
     categoryId: 1,
     userId: 1,
@@ -1369,7 +1369,7 @@ module.exports = [
   },
   {
     description: "Entertainment Venue Tickets",
-    amount: 75.0,
+    amount: -75.0,
     date: "2023-08-15",
     categoryId: 1,
     userId: 1,
@@ -1381,7 +1381,7 @@ module.exports = [
   },
   {
     description: "Health & Wellness Services",
-    amount: 89.99,
+    amount: -89.99,
     date: "2023-08-12",
     categoryId: 1,
     userId: 1,
@@ -1393,7 +1393,7 @@ module.exports = [
   },
   {
     description: "Starbucks Coffee",
-    amount: 7.5,
+    amount: -7.5,
     date: "2023-06-05",
     categoryId: 1,
     userId: 1,
@@ -1405,7 +1405,7 @@ module.exports = [
   },
   {
     description: "Grocery Store XYZ",
-    amount: 110.35,
+    amount: -110.35,
     date: "2023-06-08",
     categoryId: 1,
     userId: 1,
@@ -1417,7 +1417,7 @@ module.exports = [
   },
   {
     description: "Netflix Subscription",
-    amount: 15.99,
+    amount: -15.99,
     date: "2023-06-10",
     categoryId: 1,
     userId: 1,
@@ -1429,7 +1429,7 @@ module.exports = [
   },
   {
     description: "Restaurant Bill",
-    amount: 55.2,
+    amount: -55.2,
     date: "2023-06-12",
     categoryId: 1,
     userId: 1,
@@ -1441,7 +1441,7 @@ module.exports = [
   },
   {
     description: "Online Clothing Store",
-    amount: 80.15,
+    amount: -80.15,
     date: "2023-06-15",
     categoryId: 1,
     userId: 1,
@@ -1453,7 +1453,7 @@ module.exports = [
   },
   {
     description: "Apple iTunes Store",
-    amount: 10.5,
+    amount: -10.5,
     date: "2023-06-18",
     categoryId: 1,
     userId: 1,
@@ -1465,7 +1465,7 @@ module.exports = [
   },
   {
     description: "Gas Station ABC",
-    amount: 28.1,
+    amount: -28.1,
     date: "2023-06-20",
     categoryId: 1,
     userId: 1,
@@ -1477,7 +1477,7 @@ module.exports = [
   },
   {
     description: "Hotel Reservation",
-    amount: 140.6,
+    amount: -140.6,
     date: "2023-06-22",
     categoryId: 1,
     userId: 1,
@@ -1489,7 +1489,7 @@ module.exports = [
   },
   {
     description: "Jewelry Store Transaction",
-    amount: 205.75,
+    amount: -205.75,
     date: "2023-06-25",
     categoryId: 1,
     userId: 1,
@@ -1501,7 +1501,7 @@ module.exports = [
   },
   {
     description: "Utility Bill Payment",
-    amount: 70.4,
+    amount: -70.4,
     date: "2023-06-28",
     categoryId: 1,
     userId: 1,
@@ -1513,7 +1513,7 @@ module.exports = [
   },
   {
     description: "Fast Food Restaurant",
-    amount: 20.85,
+    amount: -20.85,
     date: "2023-06-30",
     categoryId: 1,
     userId: 1,
@@ -1525,7 +1525,7 @@ module.exports = [
   },
   {
     description: "Online Gaming Purchase",
-    amount: 45.99,
+    amount: -45.99,
     date: "2023-07-02",
     categoryId: 1,
     userId: 1,
@@ -1537,7 +1537,7 @@ module.exports = [
   },
   {
     description: "Furniture Store Purchase",
-    amount: 305.2,
+    amount: -305.2,
     date: "2023-07-05",
     categoryId: 1,
     userId: 1,
@@ -1549,7 +1549,7 @@ module.exports = [
   },
   {
     description: "Online Marketplace Purchase",
-    amount: 65.5,
+    amount: -65.5,
     date: "2023-07-07",
     categoryId: 1,
     userId: 1,
@@ -1561,7 +1561,7 @@ module.exports = [
   },
   {
     description: "Amazon Purchase",
-    amount: 120.0,
+    amount: -120.0,
     date: "2023-07-09",
     categoryId: 1,
     userId: 1,
@@ -1573,7 +1573,7 @@ module.exports = [
   },
   {
     description: "Uber Ride",
-    amount: 25.15,
+    amount: -25.15,
     date: "2023-07-11",
     categoryId: 1,
     userId: 1,
@@ -1585,7 +1585,7 @@ module.exports = [
   },
   {
     description: "Airline Ticket Booking",
-    amount: 450.9,
+    amount: -450.9,
     date: "2023-07-13",
     categoryId: 1,
     userId: 1,
@@ -1597,7 +1597,7 @@ module.exports = [
   },
   {
     description: "Subscription Service XYZ",
-    amount: 12.99,
+    amount: -12.99,
     date: "2023-07-15",
     categoryId: 1,
     userId: 1,
@@ -1609,7 +1609,7 @@ module.exports = [
   },
   {
     description: "Electronics Store Purchase",
-    amount: 299.5,
+    amount: -299.5,
     date: "2023-07-17",
     categoryId: 1,
     userId: 1,
@@ -1621,7 +1621,7 @@ module.exports = [
   },
   {
     description: "Pharmacy Prescription",
-    amount: 45.25,
+    amount: -45.25,
     date: "2023-07-19",
     categoryId: 1,
     userId: 1,
@@ -1633,7 +1633,7 @@ module.exports = [
   },
   {
     description: "Car Rental",
-    amount: 125.75,
+    amount: -125.75,
     date: "2023-07-21",
     categoryId: 1,
     userId: 1,
@@ -1645,7 +1645,7 @@ module.exports = [
   },
   {
     description: "Home Improvement Store",
-    amount: 195.6,
+    amount: -195.6,
     date: "2023-07-23",
     categoryId: 1,
     userId: 1,
@@ -1657,7 +1657,7 @@ module.exports = [
   },
   {
     description: "Gym Membership",
-    amount: 40.0,
+    amount: -40.0,
     date: "2023-07-25",
     categoryId: 1,
     userId: 1,
@@ -1669,7 +1669,7 @@ module.exports = [
   },
   {
     description: "Electronics Subscription",
-    amount: 10.99,
+    amount: -10.99,
     date: "2023-07-27",
     categoryId: 1,
     userId: 1,
@@ -1681,7 +1681,7 @@ module.exports = [
   },
   {
     description: "Charity Donation",
-    amount: 50.0,
+    amount: -50.0,
     date: "2023-07-29",
     categoryId: 1,
     userId: 1,
@@ -1693,7 +1693,7 @@ module.exports = [
   },
   {
     description: "Music Store Purchase",
-    amount: 65.75,
+    amount: -65.75,
     date: "2023-07-31",
     categoryId: 1,
     userId: 1,
@@ -1705,7 +1705,7 @@ module.exports = [
   },
   {
     description: "Coffee Shop Purchase",
-    amount: 6.8,
+    amount: -6.8,
     date: "2023-08-01",
     categoryId: 1,
     userId: 1,
@@ -1717,7 +1717,7 @@ module.exports = [
   },
   {
     description: "Entertainment Venue Tickets",
-    amount: 70.2,
+    amount: -70.2,
     date: "2023-08-02",
     categoryId: 1,
     userId: 1,
