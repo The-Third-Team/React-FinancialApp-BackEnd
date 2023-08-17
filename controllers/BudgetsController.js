@@ -1,4 +1,6 @@
-const { Budget } = require("../models");
+const { Budget, Transaction } = require("../models");
+const moment = require("moment");
+const { Op } = require("sequelize");
 
 const CreateBudget = async (req, res) => {
   try {
@@ -11,7 +13,7 @@ const CreateBudget = async (req, res) => {
       const newBudget = await Budget.create(budget);
       budget_list.push(newBudget);
     }
-    
+
     //const newBudget = await Budget.create(req.body);
     res.send(budget_list);
   } catch (error) {
@@ -32,6 +34,27 @@ const GetUserBudgets = async (req, res) => {
   try {
     let userId = parseInt(req.params.user_id);
     const allUserBudgets = await Budget.findAll({ where: { userId: userId } });
+    const currentDate = moment();
+    const startOfMonth = currentDate.clone().startOf("month");
+    const endOfMonth = currentDate.clone().endOf("month");
+
+    for (budget of allUserBudgets) {
+      const transactions = await Transaction.findAll({
+        where: {
+          categoryId: budget.categoryId,
+          date: {
+            [Op.between]: [startOfMonth, endOfMonth]
+          }
+        },
+        attributes: ["amount"]
+      });
+      const totalAmount = transactions.reduce(
+        (sum, transaction) => sum + transaction.amount,
+        0
+      );
+      budget.dataValues.remaining = budget.budget + totalAmount;
+    }
+
     res.send(allUserBudgets);
   } catch (error) {
     throw error;

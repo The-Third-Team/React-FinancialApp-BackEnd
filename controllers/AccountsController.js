@@ -27,17 +27,15 @@ const GetUserAccounts = async (req, res) => {
 
     for (const account of allAccounts) {
       const transactions = await Transaction.findAll({
-        where: { accountId: account.id }, // Filter transactions by accountId
-        attributes: ["amount"] // Only retrieve the "amount" field
+        where: { accountId: account.id },
+        attributes: ["amount"]
       });
 
-      // Calculate the total sum of amounts for this account
       const totalAmount = transactions.reduce(
         (sum, transaction) => sum + transaction.amount,
         0
       );
 
-      // Inject the total amount into the account object
       account.dataValues.amount = totalAmount;
     }
 
