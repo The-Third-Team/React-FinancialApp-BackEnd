@@ -29,7 +29,9 @@ const GetAllBudgets = async (req, res) => {
 
 const GetUserBudgets = async (req, res) => {
   try {
-    // Provided user ID and get all the budget data for the user
+    // Provided user ID and get all the budget data for the user including the remaining amount of the budget
+    // by calculating against current month transaction only
+
     let userId = parseInt(req.params.user_id);
     const allUserBudgets = await Budget.findAll({ where: { userId } });
 

@@ -15,63 +15,70 @@ module.exports = [
   },
   {
     name: "Coffee Shops",
-    budget: 5500,
+    budget: 300,
     categoryId: "",
     userId: "",
     userEmail: "avery.liv@email.com"
   },
   {
     name: "Clothing",
-    budget: 0,
+    budget: 400,
+    categoryId: "",
+    userId: "",
+    userEmail: "avery.liv@email.com"
+  },
+  {
+    name: "Electronics",
+    budget: 500,
     categoryId: "",
     userId: "",
     userEmail: "avery.liv@email.com"
   },
   {
     name: "Jewelry",
-    budget: 6000,
+    budget: 300,
     categoryId: "",
     userId: "",
     userEmail: "avery.liv@email.com"
   },
   {
     name: "Rent/Mortgage",
-    budget: 7000,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Car",
-    budget: 0,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Insurance",
     budget: 2000,
     categoryId: "",
     userId: "",
     userEmail: "avery.liv@email.com"
   },
   {
+    name: "Car",
+    budget: 1000,
+    categoryId: "",
+    userId: "",
+    userEmail: "avery.liv@email.com"
+  },
+  {
+    name: "Insurance",
+    budget: 700,
+    categoryId: "",
+    userId: "",
+    userEmail: "avery.liv@email.com"
+  },
+  {
     name: "Utilities",
-    budget: 3500,
+    budget: 500,
     categoryId: "",
     userId: "",
     userEmail: "avery.liv@email.com"
   },
   {
     name: "Streaming",
-    budget: 1200,
+    budget: 200,
     categoryId: "",
     userId: "",
     userEmail: "avery.liv@email.com"
   },
   {
     name: "Activities",
-    budget: 1800,
+    budget: 600,
     categoryId: "",
     userId: "",
     userEmail: "avery.liv@email.com"
