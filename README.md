@@ -2,9 +2,18 @@
 
 ## Date 08/17/23
 
-### By: [Darran Moore](https://www.linkedin.com/in/darranmoore/), [Dustin Greyfield](https://www.linkedin.com/in/dustinjs/), [Fredy Laksmono](https://www.linkedin.com/in/fredy-laksmono/), [Sierra Coleman](https://www.linkedin.com/in/slaurencoleman/), [Vilem McKael](https://www.linkedin.com/in/vilem-mckael/), [Yuta Okkotsu](https://www.linkedin.com/in/yutaokkotsu/)
+### Team: 
 
-####  [Github Dustin](https://github.com/Scynes) | [Github Fredy](https://github.com/fredy-laksmono) | [Github Vilem](https://github.com/Vilem-McKael) | [Github Yuta](https://github.com/yutaokkots)
+#### UI/UX Researcher Team
+[Darran Moore](https://www.linkedin.com/in/darranmoore/) | [portfolio](https://www.darranmoore.com)    
+[Sierra Coleman](https://www.linkedin.com/in/slaurencoleman/) | [portfolio](https://www.createherlauren.com)   
+
+#### Software Engineering Team
+
+[Dustin Portell](https://www.linkedin.com/in/dustinjs/) | [portfolio](https://www.dustinjs.dev) | [github](https://github.com/Scynes)    
+[Fredy Laksmono](https://www.linkedin.com/in/fredy-laksmono/) | [portfolio](https://flaksmono.com) | [github](https://github.com/fredy-laksmono)    
+[Vilem McKael](https://www.linkedin.com/in/vilem-mckael/) | [portfolio]() | [github](https://github.com/Vilem-McKael)    
+[Yuta Okkotsu](https://www.linkedin.com/in/yutaokkotsu/) | [portfolio]() | [github](https://github.com/yutaokkots)    
 
 ---
 
