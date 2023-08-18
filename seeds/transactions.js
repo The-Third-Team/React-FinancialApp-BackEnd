@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     description: "ACH Transfer from 42313777",
-    amount: 7000,
+    amount: 7010,
     date: "2023-08-10",
     categoryId: 1,
     userId: 1,
