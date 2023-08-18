@@ -1,88 +1,88 @@
 module.exports = [
-  {
-    name: "Restaurant",
-    budget: 1000,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Grocery",
-    budget: 800,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Coffee Shops",
-    budget: 300,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Clothing",
-    budget: 400,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Electronics",
-    budget: 500,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Jewelry",
-    budget: 300,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Rent/Mortgage",
-    budget: 2000,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Car",
-    budget: 1000,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Insurance",
-    budget: 700,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Utilities",
-    budget: 500,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Streaming",
-    budget: 200,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
-    name: "Activities",
-    budget: 600,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
+  // {
+  //   name: "Restaurant",
+  //   budget: 1000,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Grocery",
+  //   budget: 800,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Coffee Shops",
+  //   budget: 300,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Clothing",
+  //   budget: 400,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Electronics",
+  //   budget: 500,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Jewelry",
+  //   budget: 300,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Rent/Mortgage",
+  //   budget: 2000,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Car",
+  //   budget: 1000,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Insurance",
+  //   budget: 700,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Utilities",
+  //   budget: 500,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Streaming",
+  //   budget: 200,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
+  // {
+  //   name: "Activities",
+  //   budget: 600,
+  //   categoryId: "",
+  //   userId: "",
+  //   userEmail: "avery.liv@email.com"
+  // },
   {
     name: "Restaurant",
     budget: 1000,

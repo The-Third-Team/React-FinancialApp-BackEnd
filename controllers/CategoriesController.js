@@ -12,12 +12,12 @@ const CreateCategory = async (req, res) => {
 const GetAllCategories = async (req, res) => {
   try {
     const allCategories = await Category.findAll();
-    console.log(allCategories);
-    // Removing the last two objects from the array
-    const numberOfItemsToRemove = 2;
-    if (allCategories.length >= numberOfItemsToRemove) {
-      allCategories.splice(-numberOfItemsToRemove);
-    }
+    // console.log(allCategories);
+    // // Removing the last two objects from the array
+    // const numberOfItemsToRemove = 2;
+    // if (allCategories.length >= numberOfItemsToRemove) {
+    //   allCategories.splice(-numberOfItemsToRemove);
+    // }
     res.send(allCategories);
   } catch (error) {
     throw error;
