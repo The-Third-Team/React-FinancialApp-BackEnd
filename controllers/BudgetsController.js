@@ -65,7 +65,14 @@ const GetUserBudgets = async (req, res) => {
       budget.dataValues.group = category.group;
     }
 
-    res.send(allUserBudgets);
+    const filteredBudget = allUserBudgets.filter(
+      (item) => item.name !== "Fund"
+    );
+    const finalFilterBudget = filteredBudget.filter(
+      (item) => item.name !== "Income"
+    );
+
+    res.send(finalFilterBudget);
   } catch (error) {
     throw error;
   }
