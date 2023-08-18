@@ -29,14 +29,18 @@ const GetAllBudgets = async (req, res) => {
 
 const GetUserBudgets = async (req, res) => {
   try {
+    // Provided user ID and get all the budget data for the user
     let userId = parseInt(req.params.user_id);
-    const allUserBudgets = await Budget.findAll({ where: { userId: userId } });
+    const allUserBudgets = await Budget.findAll({ where: { userId } });
+
+    // Preping the range to get the current month transactions only
     const currentDate = moment();
     const startOfMonth = currentDate.clone().startOf("month");
     const endOfMonth = currentDate.clone().endOf("month");
 
     for (budget of allUserBudgets) {
-      const category = await Category.findByPk(budget.categoryId);
+      // For each budget, find all transactions relate to the budget categoryId and in the range of current month
+      // Then extract the amount data.
       const transactions = await Transaction.findAll({
         where: {
           categoryId: budget.categoryId,
@@ -46,11 +50,16 @@ const GetUserBudgets = async (req, res) => {
         },
         attributes: ["amount"]
       });
+
+      // Sum the amount and inject the total into a new field called remaining
       const totalAmount = transactions.reduce(
         (sum, transaction) => sum + transaction.amount,
         0
       );
       budget.dataValues.remaining = budget.budget + totalAmount;
+
+      // Add the budget group data for easy grouping. Get from the category object.
+      const category = await Category.findByPk(budget.categoryId);
       budget.dataValues.group = category.group;
     }
 

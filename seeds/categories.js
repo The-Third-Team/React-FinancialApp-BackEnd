@@ -20,6 +20,11 @@ module.exports = [
     group: "Shopping"
   },
   {
+    name: "Electronics",
+    description: "Electronics related transaction",
+    group: "Shopping"
+  },
+  {
     name: "Jewelry",
     description: "Jewelry related transaction",
     group: "Shopping"
@@ -43,11 +48,6 @@ module.exports = [
     name: "Utilities",
     description: "Utilities related transaction",
     group: "Bills"
-  },
-  {
-    name: "Movies",
-    description: "Movies related transaction",
-    group: "Entertainment"
   },
   {
     name: "Streaming",

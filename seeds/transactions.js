@@ -224,7 +224,7 @@ module.exports = [
     creditDebit: "credit",
     accountId: 1,
     accountNumber: "12341234",
-    categoryName: "Movies",
+    categoryName: "Activities",
     userEmail: "avery.liv@email.com"
   },
   {
@@ -584,7 +584,7 @@ module.exports = [
     creditDebit: "credit",
     accountId: 1,
     accountNumber: "123415771",
-    categoryName: "Movies",
+    categoryName: "Activities",
     userEmail: "avery.liv@email.com"
   },
   {
@@ -1424,7 +1424,7 @@ module.exports = [
     creditDebit: "credit",
     accountId: 1,
     accountNumber: "123400012",
-    categoryName: "Movies",
+    categoryName: "Electronics",
     userEmail: "emily.brown@email.com"
   },
   {
@@ -1448,7 +1448,7 @@ module.exports = [
     creditDebit: "credit",
     accountId: 1,
     accountNumber: "123400012",
-    categoryName: "Movies",
+    categoryName: "Activities",
     userEmail: "emily.brown@email.com"
   },
   {
@@ -1688,7 +1688,7 @@ module.exports = [
     creditDebit: "credit",
     accountId: 1,
     accountNumber: "123400012",
-    categoryName: "Movies",
+    categoryName: "Electronics",
     userEmail: "emily.brown@email.com"
   },
   {
@@ -1748,7 +1748,7 @@ module.exports = [
     creditDebit: "credit",
     accountId: 1,
     accountNumber: "123400012",
-    categoryName: "Movies",
+    categoryName: "Electronics",
     userEmail: "emily.brown@email.com"
   },
   {
@@ -1796,7 +1796,7 @@ module.exports = [
     creditDebit: "credit",
     accountId: 1,
     accountNumber: "123400012",
-    categoryName: "Movies",
+    categoryName: "Activities",
     userEmail: "emily.brown@email.com"
   }
 ];

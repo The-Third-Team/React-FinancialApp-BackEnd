@@ -63,13 +63,6 @@ module.exports = [
     userEmail: "avery.liv@email.com"
   },
   {
-    name: "Movies",
-    budget: 0,
-    categoryId: "",
-    userId: "",
-    userEmail: "avery.liv@email.com"
-  },
-  {
     name: "Streaming",
     budget: 1200,
     categoryId: "",
@@ -142,13 +135,6 @@ module.exports = [
   {
     name: "Utilities",
     budget: 3500,
-    categoryId: "",
-    userId: "",
-    userEmail: "john.smith@email.com"
-  },
-  {
-    name: "Movies",
-    budget: 0,
     categoryId: "",
     userId: "",
     userEmail: "john.smith@email.com"
@@ -231,13 +217,6 @@ module.exports = [
     userEmail: "michael.williams@email.com"
   },
   {
-    name: "Movies",
-    budget: 700,
-    categoryId: "",
-    userId: "",
-    userEmail: "michael.williams@email.com"
-  },
-  {
     name: "Streaming",
     budget: 900,
     categoryId: "",
@@ -310,13 +289,6 @@ module.exports = [
   {
     name: "Utilities",
     budget: 3000,
-    categoryId: "",
-    userId: "",
-    userEmail: "emily.brown@email.com"
-  },
-  {
-    name: "Movies",
-    budget: 800,
     categoryId: "",
     userId: "",
     userEmail: "emily.brown@email.com"
