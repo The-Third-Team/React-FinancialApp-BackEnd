@@ -72,6 +72,7 @@ const GetUserBudgets = async (req, res) => {
       (item) => item.name !== "Income"
     );
 
+    // res.send(allUserBudgets);
     res.send(finalFilterBudget);
   } catch (error) {
     throw error;

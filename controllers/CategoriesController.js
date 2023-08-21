@@ -12,12 +12,15 @@ const CreateCategory = async (req, res) => {
 const GetAllCategories = async (req, res) => {
   try {
     const allCategories = await Category.findAll();
-    // console.log(allCategories);
-    // // Removing the last two objects from the array
-    // const numberOfItemsToRemove = 2;
-    // if (allCategories.length >= numberOfItemsToRemove) {
-    //   allCategories.splice(-numberOfItemsToRemove);
-    // }
+    res.send(allCategories);
+  } catch (error) {
+    throw error;
+  }
+};
+
+const GetAllCategoriesFiltered = async (req, res) => {
+  try {
+    const allCategories = await Category.findAll();
 
     const filteredCategories = allCategories.filter(
       (item) => item.name !== "Fund"
@@ -34,5 +37,6 @@ const GetAllCategories = async (req, res) => {
 
 module.exports = {
   CreateCategory,
-  GetAllCategories
+  GetAllCategories,
+  GetAllCategoriesFiltered
 };
